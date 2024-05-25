@@ -15,9 +15,7 @@ export default {
     }
   },
   methods: {
-    welcome() {
 
-    }
   },
   mounted() {
 
@@ -27,13 +25,9 @@ export default {
 
 <template>
   <AppHeader />
-  <!-- <a href="google.it">Link non stilizzato in header</a> -->
 
-  <main>
+  <AppMain />
 
-
-
-  </main>
 
   <AppFooter />
 
