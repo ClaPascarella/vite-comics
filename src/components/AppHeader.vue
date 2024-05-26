@@ -74,9 +74,6 @@ export default {
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 bg-dark mt-2">CONTENT GOES HERE</div>
-        </div>
     </div>
 </template>
 
