@@ -1,10 +1,11 @@
 <script>
-export default {
-    data() {
-        return {
+import ComicsList from "./ComicsList.vue";
 
-        }
-    }
+export default {
+    components: {
+        ComicsList,
+    },
+
 }
 </script>
 
@@ -15,8 +16,18 @@ export default {
     </div>
 
     <!-------CONTAINER FUMETTI-------->
-    <div class="bg-dark" style="max-width: 100%; height: auto;">
-        ciao
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-dark text-white">
+                <div class="container" style="width: 1000px;">
+                    <div class="col-2 d-flex flex-row align-items-center justify-content-center">
+                        <ComicsList />
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <!-------- CONTAINER PRIMARY------>
